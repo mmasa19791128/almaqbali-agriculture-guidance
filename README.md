@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>المرشد الزراعي</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="المرشد الزراعي" class="logo">
+  <h1>مرحبًا بك في تطبيق المرشد الزراعي</h1>
+</header>
+
+<nav>
+  <a href="#general-farming">الزراعة العامة</a>
+  <a href="#home-farming">الزراعة المنزلية</a>
+  <a href="#agro-calendar">التقويم الزراعي</a>
+  <a href="#diseases">الأمراض والعلاج</a>
+  <a href="#research">البحث العلمي</a>
+  <a href="#products">المنتجات الزراعية</a>
+  <a href="#consultation">الاستشارات</a>
+</nav>
+
+<main>
+  <section id="general-farming">
+    <h2>الزراعة العامة</h2>
+    <div class="farming-category">
+      <h3>الحبوب</h3>
+      <p>جميع الأصناف، طرق الزراعة، الري، التسميد، الفوائد، صور توضيحية.</p>
+    </div>
+    <div class="farming-category">
+      <h3>الخضروات</h3>
+      <p>جميع الأصناف مع معلومات علمية مفصلة وصور توضيحية.</p>
+    </div>
+    <div class="farming-category">
+      <h3>الفواكه</h3>
+      <p>محتوى شامل للزراعة، التسميد، الري، الحصاد، الصور التوضيحية.</p>
+    </div>
+  </section>
+
+  <section id="home-farming">
+    <h2>الزراعة المنزلية الحديثة</h2>
+    <p>أهدافها، مميزاتها، طرقها، الاستفادة من الموارد المنزلية، محتوى علمي شامل وصور توضيحية.</p>
+  </section>
+
+  <section id="agro-calendar">
+    <h2>التقويم الزراعي</h2>
+    <p>معاليم الزراعة حسب المواقع، توقيت البذور والتسميد، أونلاين AI + Wikipedia + GPT.</p>
+    <button id="fertilizerCalc">حاسبة التسميد والري</button>
+  </section>
+
+  <section id="diseases">
+    <h2>الأمراض وعلاجها</h2>
+    <p>الأمراض، الأسباب، العلاج أوفلاين، مع إمكانية التشخيص بالكاميرا أونلاين.</p>
+    <button id="diagnose">تشخيص مرض</button>
+  </section>
+
+  <section id="research">
+    <h2>البحث العلمي</h2>
+    <p>محتوى أوفلاين + روابط أونلاين لمراجع علمية ومواقع بحثية.</p>
+  </section>
+
+  <section id="products">
+    <h2>المنتجات الزراعية</h2>
+    <p>فوائد النباتات، المنتجات، إعلانات AdMob احترافية (فوق الصفحة وأسفلها).</p>
+  </section>
+
+  <section id="consultation">
+    <h2>الاستشارات والاقتراحات</h2>
+    <p>واتساب: +967734750438</p>
+    <p>البريد الإلكتروني: mmasa197911282017@gmail.com</p>
+    <ul>
+      <li>الاستشارات الزراعية</li>
+      <li>الاقتراحات والتقييم</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>حقوق النشر &copy; 2026 المرشد الزراعي</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
